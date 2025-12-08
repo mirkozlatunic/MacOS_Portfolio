@@ -44,7 +44,7 @@ const Dock = () => {
         gsap.to(icon, {
           scale: 1,
           y: 0,
-          duraiton: 0.3,
+          duration: 0.3,
           ease: 'power1.out',
         })
       );

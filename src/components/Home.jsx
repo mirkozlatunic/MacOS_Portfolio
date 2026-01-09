@@ -28,7 +28,11 @@ const Home = () => {
             className={clsx('group folder', project.windowPosition)}
             onClick={() => handleOpenProjectFinder(project)}
           >
-            <img src="/images/folder.png" alt={project.name} />
+            <img
+              src="/images/folder.png"
+              alt={project.name}
+              className="cursor-pointer"
+            />
             <p>{project.name}</p>
           </li>
         ))}
